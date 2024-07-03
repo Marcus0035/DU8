@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Název vašeho webu - Klíčové slovo - Popis</title>
+    <meta name="description" content="Stručný popis vašeho webu, zaměřený na klíčová slova, které cílíte.">
+    <meta name="keywords" content="klíčová slova, spojení slov, která popisují váš web">
+
+    <!-- Pokud máme vícejazyčnou stránku, můžeme přidat i meta tag pro jiny jazyk -->
+    <meta http-equiv="Content-Language" content="cs">
+
+    <!-- Viewport tag pro responsivní design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Canonical URL pro předejití duplicity obsahu -->
+    <link rel="canonical" href="https://www.vasewebovastranka.cz">
+
+    <!-- Obrázek pro sdílení na sociálních sítích -->
+    <meta property="og:image" content="url k vašemu obrázku" />
+
+    <!-- Nastavení autorství a publisherství -->
+    <link rel="author" href="url k autorovi">
+    <link rel="publisher" href="url k vydavateli">
+
+    <!-- Robots meta tag pro řízení chování robotů vyhledávačů -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Meta tagy pro Open Graph pro optimalizaci sdílení na sociálních sítích -->
+    <meta property="og:title" content="Název vašeho webu - Klíčové slovo - Popis">
+    <meta property="og:description" content="Stručný popis vašeho webu, zaměřený na klíčová slova, které cílíte.">
+    <meta property="og:url" content="https://www.vasewebovastranka.cz">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card pro lepší sdílení na Twitteru -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Název vašeho webu - Klíčové slovo - Popis">
+    <meta name="twitter:description" content="Stručný popis vašeho webu, zaměřený na klíčová slova, které cílíte.">
+    <meta name="twitter:image" content="url k vašemu obrázku">
+
+    <!-- CSS Reset & CSS Normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!--BootStrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- My CSSs -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!--Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Schema.org JSON-LD pro lepší strukturované metadata -->
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Název vašeho webu",
+          "url": "https://www.vasewebovastranka.cz",
+          "logo": "url k logu",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-000-000-0000",
+            "contactType": "customer service"
+          }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="container" id="nav">
+        <a href=""><img src="img/basic-logo.svg" alt="logo"></a>
+        <nav>
+            <ul id="nav-normal">
+                <li><a href="#">Home page</a></li>
+                <li><a href="#">Internal page demo</a></li>
+                <li><a href="#">Menu 3</a></li>
+                <li><a href="#">Menu 4</a></li>
+                <li><a href="#">Menu 5</a></li>
+            </ul>
+            <li id="dropdown">
+                <i class='bx bx-menu'></i>
+            </li>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Simple responsive template</h1>
+        <article>
+            <section class="two-to-three">
+                <div>
+                    <h2>Simple Responsive Template</h2>
+                    <p>...is a template for responsive web design. A small set of tools and best practices that allows
+                        web
+                        designers to build responsive websites faster. Websites built with Simple Responsive Template
+                        will
+                        be optimized for screen widths between 320px and anything. Resize your browser to check it out.
+                    </p>
+                    <button class="btn-blue">Call to action</button>
+                    <button class="btn-blue">One more</button>
+                </div>
+                <!-- Carousel wrapper -->
+                <div id="carouselBasicExample" data-mdb-carousel-init class="carousel slide carousel-fade"
+                    data-mdb-ride="carousel">
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                        <button data-mdb-button-init type="button" data-mdb-target="#carouselBasicExample"
+                            data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button data-mdb-button-init type="button" data-mdb-target="#carouselBasicExample"
+                            data-mdb-slide-to="1" aria-label="Slide 2"></button>
+                        <button data-mdb-button-init type="button" data-mdb-target="#carouselBasicExample"
+                            data-mdb-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    <!-- Inner -->
+                    <div class="carousel-inner">
+                        <!-- Single item -->
+                        <div class="carousel-item active">
+                            <img src="img/basic-pic1.jpg" class="d-block w-100" alt="Sunset Over the City" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>
+                                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="img/basic-pic2.jpg" class="d-block w-100" alt="Canyon at Nigh" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100"
+                                alt="Cliff Above a Stormy Sea" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Inner -->
+
+                    <!-- Controls -->
+                    <button data-mdb-button-init class="carousel-control-prev" type="button"
+                        data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button data-mdb-button-init class="carousel-control-next" type="button"
+                        data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- Carousel wrapper -->
+            </section>
+
+            <section>
+                <aside class="one-one-one">
+                    <div class="box">
+                        <h2>Brazil!</h2>
+                        <img src="img/basic-pic1.jpg" alt="Brazil Sea">
+                        <p>Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure
+                            horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on. By
+                            offer scale an stuff. Blush be sorry no sight. Sang lose of hour then he left find. </p>
+                    </div>
+
+                    <div class="box">
+                        <h2>Mexico!</h2>
+                        <img src="img/basic-pic3.jpg" alt="Mexico mountains">
+                        <p>Yourself required no at thoughts delicate landlord it be. Branched dashwood do is whatever
+                            it. Farther be chapter at visited married in it pressed. By distrusts procuring be oh
+                            frankness existence believing instantly if. Doubtful on an juvenile as of servants insisted.
+                            Judge why maids led sir whose guest drift her point. Him comparison especially friendship
+                            was who sufficient attachment favourable how. Luckily but minutes ask picture man perhaps
+                            are inhabit. How her good all sang more why. </p>
+                    </div>
+
+                    <div class="box">
+                        <h2>Us!</h2>
+                        <img src="img/basic-pic4.jpg" alt="Our beach">
+                        <p>
+                            Their could can widen ten she any. As so we smart those money in. Am wrote up whole so tears
+                            sense oh. Absolute required of reserved in offering no. How sense found our those gay again
+                            taken the. Had mrs outweigh desirous sex overcame. Improved property reserved disposal do
+                            offering me. </p>
+                    </div>
+                </aside>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <h3>footer stuff</h3>
+        <p>Site built with <a href="">Simple Responsive Template</a></p>
+    </footer>
+    <!--SCRIPTS-->
+    <script src="script.js"></script>
+    <!--BootStrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
